@@ -81,8 +81,7 @@ const About = () => {
                 'an Information Technology student.',
                 'a Frontend Developer.',
                 'a Grammar Nazi.',
-                'a Polygot.',
-                'a Creative Thinker.'
+                'a Polygot.'
               ]}
               typeSpeed={40}
               backSpeed={50}
