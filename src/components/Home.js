@@ -38,7 +38,7 @@ const SocialLinks = () => {
 				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://www.instagram.com/mohammmmmmmmmmmmmmmmmmmmmmme.d/"><i className="fab fa-instagram" aria-hidden="true"></i><p className="hidden my-2">Instagram</p></a></li>
 				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://github.com/mohammmmmmmmmmed"><i className="fab fa-github" aria-hidden="true"></i><p className="hidden my-2">GitHub</p></a></li>
 				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://discordapp.com/users/ironsidepickle"><i className="fab fa-discord" aria-hidden="true"></i><p className="hidden my-2">Discord</p></a></li>
-				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://www.hackerrank.com/profile/mohammedsahal001"><i className="fab fa-hackerrank" aria-hidden="true"></i><p className="hidden my-2">Hackerran</p></a></li>
+				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://www.hackerrank.com/profile/mohammedsahal001"><i className="fab fa-hackerrank" aria-hidden="true"></i><p className="hidden my-2">Hackerrank</p></a></li>
 
 			</ul>
 		)
