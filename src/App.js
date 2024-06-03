@@ -13,6 +13,8 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Blog from "./components/Blog";
 import Resume from "./components/Resume";
+import Random from "./components/Random";
+
 import NavBar from "./components/Nav";
 import ScrollToTop from "./components/ScrollToTop";
 import NotFound from "./components/404";
@@ -48,6 +50,8 @@ function App() {
               <Route path="/projects" element={<Page component={Projects} title="Projects" />} />
               <Route path="/blog" element={<Page component={Blog} title="Blog" />} />
               <Route path="/resume" element={<Page component={Resume} title="Resume" />} />
+              <Route path="/random" element={<Page component={Random} title="Random" />} />
+
 
               <Route path="*" element={<NotFound />} />
             </Routes>

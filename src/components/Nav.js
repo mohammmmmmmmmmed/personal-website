@@ -35,6 +35,9 @@ const NavBar = () => {
             <LinkContainer to="/resume">
               <Nav.Link className="text-center"> Resume </Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/random">
+              <Nav.Link className="text-center"> Random </Nav.Link>
+            </LinkContainer>
             <Nav.Link className="text-center" href="mailto:mohammedsahal0085@gmail.com" target="_blank">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

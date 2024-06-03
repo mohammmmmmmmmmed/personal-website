@@ -296,7 +296,7 @@ const Projects = () => {
                     <hr />
                     <Row>
                         <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
-                            <h2><a href="https://www.old-portfolio-mohammed.vercel.app" rel="noreferrer" target="_blank">Old Portfolio Website</a></h2>
+                            <h2><a href="https://www.old-portfolio-mohammed.app" rel="noreferrer" target="_blank">Old Portfolio Website</a></h2>
                             <p>
                                 A portfolio website to share projects, blogs, and professional experience.
                             </p>
