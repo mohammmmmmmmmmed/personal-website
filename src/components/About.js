@@ -130,6 +130,20 @@ const About = () => {
           <hr />
           <VerticalTimeline>
 
+          <WorkElement
+              title="Contributor"
+              subtitle="Timechain Summer of Code"
+              date="2024"
+              description={[
+                "Joined TSoC as a contributor."
+              ]}
+            />
+              <CertificationElement
+             title="Java Certified Professional"
+             subtitle="Issued by Hackerrank"
+             date="2024"
+             description={["A certification highlighting my mastery over Java."]}
+            />
             <WorkElement
               title="Intern"
               subtitle="TinkerHub"
@@ -140,12 +154,7 @@ const About = () => {
               ]}
             />
 
-            {/* <CertificationElement */}
-            {/* // title="" */}
-            {/* // subtitle="" */}
-            {/* // date="" */}
-            {/* // description={[""]} */}
-            {/* // /> */}
+          
 
             <WorkElement
               title="Intern"
@@ -177,16 +186,9 @@ const About = () => {
               title="B.Tech. Information Technology"
               subtitle="Cochin University of Science and Technology"
               date="Future (2022 - 2026)"
-              description={["Incoming undergraduate."]}
+              description={["Currently in the fourth semester."]}
             />
-            <EducationElement
-              title="All India Senior School Certificate Exam"
-              subtitle="Central Board of Secondary Education"
-              date="2020 - 2022"
-              description={[
-                "Graduated from CBSE's AISSCE with 91% in Math."
-              ]}
-            />
+            
           </VerticalTimeline>
         </Container>
       </Container>
