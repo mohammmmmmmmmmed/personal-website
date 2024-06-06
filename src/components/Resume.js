@@ -19,7 +19,7 @@ const Resume = () => {
     return (
         <Container fluid className="d-flex flex-column p-0">
             <Row className="justify-content-center m-0">
-                <ImgCol url="https://mohammed-sahal.tiiny.site/" caption="Resume" imgSrc="./img/companies/resume.png" />
+                <ImgCol url="https://mohammed-sahal.tiiny.site/" caption="Resume" imgSrc="./img/companies/resume.jpg" />
             </Row>
         </Container>
     );

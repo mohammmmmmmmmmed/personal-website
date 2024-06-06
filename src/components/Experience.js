@@ -45,6 +45,7 @@ const Experience = () => {
                     </div>
                     <hr />
                     <Row className="justify-content-center">
+                        <ImgCol size="2" url="tsoc.dev" imgSrc="https://media.licdn.com/dms/image/C4D0BAQG68t-7fxTr3g/company-logo_200_200/0/1678348461342?e=1725494400&v=beta&t=MyHGxZUBSCg4femiFmP-aGlXeV5AZ15dp6odZYh-65g" caption="Timechain Labs" />
                         <ImgCol size="2" url="https://www.linkedin.com/company/tinkerhub/" imgSrc="./img/companies/tinkerhub.jpg" caption="TinkerHub" />
                         <ImgCol size="2" url="https://www.linkedin.com/company/spotlight-org/" imgSrc="./img/companies/spotlight.jpg" caption="Spotlight" />
 
