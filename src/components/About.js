@@ -79,7 +79,8 @@ const About = () => {
             <p>I am <Typed
               strings={[
                 'an Information Technology student.',
-                'a Frontend Developer.',
+                'a Quant Developer.',
+                'a Fullstack Developer.',
                 'a Grammar Nazi.',
                 'a Polygot.',
                 'a Creative Thinker.'
