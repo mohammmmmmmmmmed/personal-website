@@ -1,6 +1,6 @@
 import { Row, Col, Image, Container, Badge, ListGroup } from 'react-bootstrap';
 import {
-    SiTypescript, SiNextdotjs, SiReact, SiNodedotjs, SiCss3, SiMysql, SiJavascript, SiPython, SiBootstrap, SiCplusplus, SiC, SiFirebase, SiRedux
+    SiTypescript, SiNextdotjs, SiReact, SiNodedotjs, SiCss3, SiMysql, SiJavascript, SiPython, SiBootstrap, SiCplusplus, SiC, SiFirebase, SiRedux, SiFlask
 } from 'react-icons/si';
 import React from 'react';
 import { FaJava } from 'react-icons/fa';
@@ -9,6 +9,16 @@ import { FaJava } from 'react-icons/fa';
 const FireBadge = () => {
     return (
         <Badge bg="danger"><SiFirebase />Firebase</Badge>
+    )
+}
+const PythonBadge = () => {
+    return (
+        <Badge bg="danger"><SiPython />Python</Badge>
+    )
+}
+const FlaskBadge = () => {
+    return (
+        <Badge bg="danger"><SiFlask />Flask</Badge>
     )
 }
 
@@ -94,13 +104,44 @@ const Projects = () => {
                 
                 <h1 className='glow'>Software</h1>
                 <p>
-                    Of course, I can't call myself a Web Dev without some projects.
+                    Of course, I can't call myself a Software Dev without some projects.
                 </p>
                 <p>
-                    I enjoy building scalable, responsive, and performant websites.
+                    I enjoy building scalable, responsive, and performant applications.
                 </p>
                 <Container className="my-5">
                     <h2 align="center" className='glow'>Stuff I Made</h2>
+                    <hr />
+                    <Row>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+                            <h2><a href="/" rel="noreferrer" target="_blank">Realtime Stock Price Data Feed</a></h2>
+                            <p>
+                                Interface with a stock price data feed and set up your system for analysis of the data.
+                            </p>
+                            <div>
+                                <TypeBadge /> <PythonBadge />
+                            </div>
+                        </Col>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+                            <Image src="./img/projects/stock.png" fluid width="90%" rounded />
+                        </Col>
+                    </Row>
+                    <hr />
+        
+                    <Row>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+                            <h2><a href="/" rel="noreferrer" target="_blank">Woosh!</a></h2>
+                            <p>
+                                An ML project that functions like an invisibility cloak, based on the color you want to edit out with the background.
+                            </p>
+                            <div>
+                                <PythonBadge /> <CSSBadge /> <JavascriptBadge /> <FlaskBadge />
+                            </div>
+                        </Col>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+                            <Image src="#" fluid width="90%" rounded />
+                        </Col>
+                    </Row>
                     <hr />
                     <Row>
                         <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
