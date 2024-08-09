@@ -123,7 +123,6 @@ const Projects = () => {
                             </div>
                         </Col>
                         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
-                            <Image src="./img/projects/stock.png" fluid width="90%" rounded />
                         </Col>
                     </Row>
                     <hr />
@@ -139,7 +138,6 @@ const Projects = () => {
                             </div>
                         </Col>
                         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
-                            <Image src="#" fluid width="90%" rounded />
                         </Col>
                     </Row>
                     <hr />
