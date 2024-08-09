@@ -135,7 +135,7 @@ const Projects = () => {
                                 An ML project that functions like an invisibility cloak, based on the color you want to edit out with the background.
                             </p>
                             <div>
-                                <PythonBadge /> <CSSBadge /> <JavascriptBadge /> <FlaskBadge />
+                                <PythonBadge /> <CSSBadge /> <JavaScriptBadge /> <FlaskBadge />
                             </div>
                         </Col>
                         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
