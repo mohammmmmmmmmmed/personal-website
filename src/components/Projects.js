@@ -113,6 +113,125 @@ const Projects = () => {
                     <h2 align="center" className='glow'>Stuff I Made</h2>
                     <hr />
                     <Row>
+        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+            <h2><a href="/" rel="noreferrer" target="_blank">TradeSentinel</a></h2>
+            <p>
+                Detecting and predicting illegal insider trading using machine learning.
+            </p>
+            <div>
+                <TypeBadge /> <MachineLearningBadge />
+            </div>
+        </Col>
+        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+        </Col>
+    </Row>
+    <hr />
+
+    <Row>
+        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+            <h2><a href="/" rel="noreferrer" target="_blank">Sustainable Portfolio Optimizer</a></h2>
+            <p>
+                Optimizing investment portfolios while integrating ESG scores for sustainability and ethical investing.
+            </p>
+            <div>
+                <TypeBadge /> <FinanceBadge /> <ESGBadge />
+            </div>
+        </Col>
+        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+        </Col>
+    </Row>
+    <hr />
+
+    <Row>
+        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+            <h2><a href="/" rel="noreferrer" target="_blank">ESG Integration Framework</a></h2>
+            <p>
+                Incorporating ESG scores into financial models to foster socially responsible investment practices.
+            </p>
+            <div>
+                <TypeBadge /> <FinanceBadge /> <ESGBadge />
+            </div>
+        </Col>
+        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+        </Col>
+    </Row>
+    <hr />
+
+    <Row>
+        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+            <h2><a href="/" rel="noreferrer" target="_blank">Options Valuation Toolkit</a></h2>
+            <p>
+                Implementing sophisticated models for accurate prediction of option prices in financial markets.
+            </p>
+            <div>
+                <TypeBadge /> <FinanceBadge />
+            </div>
+        </Col>
+        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+        </Col>
+    </Row>
+    <hr />
+
+    <Row>
+        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+            <h2><a href="/" rel="noreferrer" target="_blank">TradingView AutoTrader</a></h2>
+            <p>
+                Automating trading decisions via webhooks linked to TradingView alerts.
+            </p>
+            <div>
+                <TypeBadge /> <TradingBadge />
+            </div>
+        </Col>
+        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+        </Col>
+    </Row>
+    <hr />
+
+    <Row>
+        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+            <h2><a href="/" rel="noreferrer" target="_blank">Reinforced Credit Scoring System</a></h2>
+            <p>
+                Enhancing credit scoring with optimized thresholds using reinforcement learning.
+            </p>
+            <div>
+                <TypeBadge /> <MachineLearningBadge />
+            </div>
+        </Col>
+        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+        </Col>
+    </Row>
+    <hr />
+
+    <Row>
+        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+            <h2><a href="/" rel="noreferrer" target="_blank">FraudShield: Credit Card Fraud Detection</a></h2>
+            <p>
+                Utilizing machine learning algorithms to detect fraudulent transactions in credit card systems.
+            </p>
+            <div>
+                <TypeBadge /> <MachineLearningBadge />
+            </div>
+        </Col>
+        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+        </Col>
+    </Row>
+    <hr />
+
+    <Row>
+        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+            <h2><a href="/" rel="noreferrer" target="_blank">Sentiment-Driven Trading Bot</a></h2>
+            <p>
+                A trading bot that leverages sentiment analysis of market data to inform trade decisions.
+            </p>
+            <div>
+                <TypeBadge /> <MachineLearningBadge /> <SentimentAnalysisBadge />
+            </div>
+        </Col>
+        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+        </Col>
+    </Row>
+    <hr />
+                    <Row>
                         <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
                             <h2><a href="/" rel="noreferrer" target="_blank">Realtime Stock Price Data Feed</a></h2>
                             <p>
