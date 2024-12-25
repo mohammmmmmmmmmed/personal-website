@@ -119,7 +119,7 @@ const Projects = () => {
                 Detecting and predicting illegal insider trading using machine learning.
             </p>
             <div>
-                <PythonBadge /> 
+                <CPPBadge /> 
             </div>
         </Col>
         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
@@ -134,7 +134,7 @@ const Projects = () => {
                 Optimizing investment portfolios while integrating ESG scores for sustainability and ethical investing.
             </p>
             <div>
-                <PythonBadge />
+                <CPPBadge />
             </div>
         </Col>
         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
@@ -164,7 +164,7 @@ const Projects = () => {
                 Implementing sophisticated models for accurate prediction of option prices in financial markets.
             </p>
             <div>
-                <PythonBadge /> 
+                <CPPBadge /> 
             </div>
         </Col>
         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
@@ -179,7 +179,7 @@ const Projects = () => {
                 Automating trading decisions via webhooks linked to TradingView alerts.
             </p>
             <div>
-                                <PythonBadge /> 
+                                <CPPBadge /> 
 
             </div>
         </Col>
@@ -195,7 +195,7 @@ const Projects = () => {
                 Enhancing credit scoring with optimized thresholds using reinforcement learning.
             </p>
             <div>
-                <PythonBadge /> 
+                <CPPBadge /> 
             </div>
         </Col>
         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
@@ -210,7 +210,7 @@ const Projects = () => {
                 Utilizing machine learning algorithms to detect fraudulent transactions in credit card systems.
             </p>
             <div>
-                <PythonBadge /> 
+                <CPPBadge /> 
             </div>
         </Col>
         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
@@ -225,7 +225,7 @@ const Projects = () => {
                 A trading bot that leverages sentiment analysis of market data to inform trade decisions.
             </p>
             <div>
-                <PythonBadge /> 
+                <CPPBadge /> 
             </div>
         </Col>
         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
