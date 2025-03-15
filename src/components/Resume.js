@@ -1,25 +1,22 @@
-import { Row, Col, Image, Container } from 'react-bootstrap';
-
-const ImgCol = ({ url, imgSrc, caption, size }) => {
-    return (
-        <Col xs={12} className="d-flex flex-column align-items-center">
-            <h1 className='glow' style={{ margin: "5vh" }}>{caption}</h1> {/* Added margin-top to the caption */}
-            <a href={url} target="_blank" rel="noopener noreferrer">
-                <Image 
-                    className="mx-auto d-block"
-                    src={imgSrc}
-                    style={{ width: "30%", height: "auto" }} 
-                />
-            </a>
-        </Col>
-    );
-}
+import { Row, Col, Container } from 'react-bootstrap';
 
 const Resume = () => {
+    // Direct link to the PDF file (replace with your actual PDF link)
+    const pdfUrl = "https://drive.google.com/uc?export=view&id=15EbzgaGxIU0QcFAv_F2C2LYNGHMkXBxD";
+
     return (
         <Container fluid className="d-flex flex-column p-0">
             <Row className="justify-content-center m-0">
-                <ImgCol url="https://mohammed-sahal.tiiny.site/" caption="Resume" imgSrc="./img/companies/resume.jpg" />
+                <Col xs={12} className="d-flex flex-column align-items-center">
+                    <h1 className='glow' style={{ margin: "5vh" }}>Resume</h1>
+                    {/* Embedded PDF Viewer */}
+                    <iframe
+                        src={`https://docs.google.com/viewer?url=${encodeURIComponent(pdfUrl)}&embedded=true`}
+                        title="Resume Preview"
+                        style={{ width: "80%", height: "80vh", border: "none" }}
+                        allowFullScreen
+                    ></iframe>
+                </Col>
             </Row>
         </Container>
     );

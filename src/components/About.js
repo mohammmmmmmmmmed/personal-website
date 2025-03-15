@@ -131,65 +131,79 @@ const About = () => {
           <hr />
           <VerticalTimeline>
 
-          <WorkElement
+            <WorkElement
+              title="Quantitative Strategy Developer"
+              subtitle="Quantumcona · Full-time"
+              date="Mar 2025 - Present"
+              description={[
+                "Develop and backtest quantitative trading strategies for global markets from scratch.",
+                "Design and implement robust workflows and data pipelines to support strategy development and analysis.",
+                "Collaborate with cross-functional teams to integrate advanced quantitative research and data science methodologies.",
+                "Continuously optimize strategies using performance metrics and market insights.",
+                "Conduct research on market trends and emerging technologies to improve strategies and processes."
+              ]}
+            />
+
+            <WorkElement
+              title="Software Developer Intern"
+              subtitle="Appropriate Tech Solutions · Internship"
+              date="Jan 2025 - Feb 2025"
+              description={[
+                "Designed and implemented the company's official website.",
+                "Created an administrative panel enabling dynamic content management.",
+                "Implemented secure authentication and content management features.",
+                "Participated in the development of warehouse management solutions.",
+                "Gained hands-on experience with various enterprise platforms: Oracle APEX, Odoo ERP, Firebase, and MERN stack."
+              ]}
+            />
+
+            <WorkElement
               title="Contributor"
-              subtitle="Timechain Summer of Code"
-              date="2024"
+              subtitle="Timechain Labs · Full-time"
+              date="May 2024 - Jul 2024"
               description={[
-                "Joined TSoC as a contributor."
-              ]}
-            />
-              <CertificationElement
-             title="Java Certified Professional"
-             subtitle="Issued by Hackerrank"
-             date="2024"
-             description={["A certification highlighting my mastery over Java."]}
-            />
-            <WorkElement
-              title="Intern"
-              subtitle="TinkerHub"
-              date="2024"
-              description={[
-                "Joined TinkerHub as a Full Stack Developer Intern",
-                "Developed and maintained the TinkerSpace's website from scratch, and publishing content."
+                "Contributed to open-source projects, enhancing functionality and fixing bugs.",
+                "Collaborated with a team of developers to improve code quality and performance."
               ]}
             />
 
-          
-
             <WorkElement
               title="Intern"
-              subtitle="Google Developer Students' Club, CUSAT"
-              date="2023"
+              subtitle="TinkerHub · Internship"
+              date="Apr 2024 - Jun 2024"
               description={[
-                "Joined GDSC-CUSAT as an Intern."
+                "Contributed to open-source projects, enhancing functionality and fixing bugs.",
+                "Collaborated with a team of developers to improve code quality and performance."
               ]}
             />
+
             <WorkElement
               title="Website and Content Developer"
-              subtitle="Spotlight India, Remote"
-              date="2023"
+              subtitle="Spotlight · Full-time"
+              date="Feb 2023 - Nov 2023"
               description={[
-                "Assumed a managerial/developer role at an NGO",
-                "Developed and maintained the organization's website from scratch, while also developing chatrooms for service users, and maintaining content."
+                "Managed and developed the organization's website, resulting in a 25% increase in user retention.",
+                "Implemented chatrooms, enhancing user interaction and satisfaction."
               ]}
             />
+
             <WorkElement
               title="Frontend Developer Trainee"
-              subtitle="mark-P, Kochi"
-              date="2022"
+              subtitle="mark-P · Apprenticeship"
+              date="Dec 2022 - Apr 2023"
               description={[
-                "Interned at a college-incubated start-up",
-                "Explored a variety of coding problems and frontend challenges."
+                "Explored and solved various backend challenges, improving coding proficiency.",
+                "Collaborated with team members on projects, enhancing team efficiency and product quality."
               ]}
             />
+
             <EducationElement
               title="B.Tech. Information Technology"
               subtitle="Cochin University of Science and Technology"
-              date="Future (2022 - 2026)"
+              date="2022 - 2026"
               description={["Currently in the fourth semester."]}
             />
-            
+
           </VerticalTimeline>
         </Container>
       </Container>
@@ -197,4 +211,4 @@ const About = () => {
   );
 }
 
-export default About
+export default About;

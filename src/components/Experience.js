@@ -2,19 +2,24 @@ import { Row, Col, Image, Container, ListGroup } from 'react-bootstrap';
 
 const ImgCol = ({ url, imgSrc, caption, size }) => {
     return (
-        <Col xs="6" sm={size} md={size} className="justify-content-center d-flex flex-column">
+        <Col xs="6" sm={size} md={size} className="justify-content-center d-flex flex-column align-items-center">
             <a href={url} target="_blank" rel="noopener noreferrer">
                 <div className="img-col-div">
                     <Image
                         className="mx-auto d-block"
-                        src={imgSrc} fluid width="80%"
+                        src={imgSrc}
+                        fluid
+                        width="80%"
+                        style={{ maxWidth: "100px" }} // Ensure consistent image size
                     />
                 </div>
-                <p align="center">{caption}</p>
+                <p className="text-center" style={{ height: "50px", display: "flex", alignItems: "center", justifyContent: "center", margin: "10px 0" }}>
+                    {caption}
+                </p>
             </a>
         </Col>
-    )
-}
+    );
+};
 
 const CveItem = ({ url, cveId, name, cvss }) => {
     return (
@@ -23,20 +28,19 @@ const CveItem = ({ url, cveId, name, cvss }) => {
                 <b>{cveId}</b>
             </a>: CVSS {cvss} — {name}
         </>
-    )
-}
+    );
+};
 
 const Experience = () => {
     return (
         <>
             <Container>
-
                 <h1 className='glow'>Professional Experience</h1>
                 <p>
-                    Web Development is one of the many fields I'm passionate about.
+                    I am passionate about quantitative finance, algorithmic trading, and data-driven decision-making. My expertise lies in developing high-frequency trading systems, sentiment analysis engines, and portfolio optimization tools.
                 </p>
                 <p>
-                    I primarily specialise in frontend development. In my free time, I play around with Website Cloning competitions and Hackathons.
+                    I specialize in Python, C++, and machine learning frameworks, with a focus on creating scalable and efficient solutions for financial markets.
                 </p>
                 <Container className="my-5">
                     <h2 align="center" className='glow'>Organizations I've worked in:</h2>
@@ -45,15 +49,14 @@ const Experience = () => {
                     </div>
                     <hr />
                     <Row className="justify-content-center">
-                        <ImgCol size="2" url="tsoc.dev" imgSrc="https://media.licdn.com/dms/image/C4D0BAQG68t-7fxTr3g/company-logo_200_200/0/1678348461342?e=1725494400&v=beta&t=MyHGxZUBSCg4femiFmP-aGlXeV5AZ15dp6odZYh-65g" caption="Timechain Labs" />
-                        <ImgCol size="2" url="https://www.linkedin.com/company/tinkerhub/" imgSrc="./img/companies/tinkerhub.jpg" caption="TinkerHub" />
-                        <ImgCol size="2" url="https://www.linkedin.com/company/spotlight-org/" imgSrc="./img/companies/spotlight.jpg" caption="Spotlight" />
-
+                        <ImgCol size="2" url="https://www.linkedin.com/company/quantumcona/" imgSrc="https://media.licdn.com/dms/image/v2/D560BAQEiKT22vHUmmQ/company-logo_100_100/company-logo_100_100/0/1708707582783/quantumcona_logo?e=1750291200&v=beta&t=in1RDbNclFbSnmIFqV17WBXoK1Ozg__jKNKVB3QBxBM" caption="Quantumcona" />
+                        <ImgCol size="2" url="https://www.linkedin.com/company/appropriate-tech-solutions/" imgSrc="./img/companies/ats.png" caption="Appropriate Tech Solutions" style={{ Height: "150px" }} /> {/* Increased size by 10% */}                        <ImgCol size="2" url="tsoc.dev" imgSrc="https://media.licdn.com/dms/image/v2/C4D0BAQG68t-7fxTr3g/company-logo_100_100/company-logo_100_100/0/1678348461342?e=1750291200&v=beta&t=Nk1nEVqi-KRTXGMlHizTRqsKIPWzCtIjJ_IAtbeAklg" caption="Timechain Labs" />
                     </Row>
                     <Row className="justify-content-center">
-                        <ImgCol size="2" url="https://www.linkedin.com/company/mark-p/" imgSrc="./img/companies/mark-P.jpg" caption="mark-P" />
-                        <ImgCol size="2" url="https://www.linkedin.com/company/dsccusat/" imgSrc="./img/companies/gdsc.jpg" caption="Google Developers Students Club, CUSAT" id="down" />
+                    <ImgCol size="2" url="https://www.linkedin.com/company/tinkerhub/" imgSrc="https://media.licdn.com/dms/image/v2/D560BAQH9dEfxje6v3w/company-logo_100_100/company-logo_100_100/0/1703247862296/tinkerhub_logo?e=1750291200&v=beta&t=VONj2UMdbGHL0jMUn4xIrh_5JgeU94FQngYybVkiWFQ" caption="TinkerHub" />
 
+                        <ImgCol size="2" url="https://www.linkedin.com/company/spotlight-org/" imgSrc="./img/companies/spotlight.jpg" caption="Spotlight" />
+                        <ImgCol size="2" url="https://www.linkedin.com/company/mark-p/" imgSrc="./img/companies/mark-P.jpg" caption="mark-P" />
                     </Row>
                     <Row className="justify-content-center my-5">
                         <p className="text-center">
@@ -72,7 +75,6 @@ const Experience = () => {
                             caption="Hackerrank Certified Java Professional" />
                         <ImgCol size="3" url="https://www.hackerrank.com/profile/mohammedsahal001" imgSrc="./img/badges/problemSolving-1star.png"
                             caption="Bronze 1 Star in Problem Solving" />
-
                     </Row>
                 </Container>
                 <Container className="my-5">
@@ -81,7 +83,6 @@ const Experience = () => {
                     <Row className="justify-content-center">
                         <ImgCol size="3" imgSrc="./img/certificates/dedsec.jpg"
                             caption=" DEDSEC CTF at Solasta ‘24" />
-
                     </Row>
                 </Container>
                 <Container className="my-5">
@@ -89,16 +90,12 @@ const Experience = () => {
                     <hr />
                     <Row className="justify-content-center">
                         <ImgCol size="7" url="https://github.com/NGcodeX/NG-java-MAX-code/pull/5#issue-1465072959" imgSrc="./img/commits/ngcodex.png"
-                            caption=" 
-
-                        Created SECURITY.md, which tells the user/reader how to report a vulnerability in the repository.
-                        "/>
-
+                            caption="Created SECURITY.md, which tells the user/reader how to report a vulnerability in the repository." />
                     </Row>
                 </Container>
             </Container>
         </>
-    )
-}
+    );
+};
 
 export default Experience;
